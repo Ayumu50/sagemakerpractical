@@ -34,7 +34,7 @@ change = st.number_input("変化", min_value=0, max_value=2, value=1)
 client = boto3.client('sagemaker-runtime', region_name='ap-northeast-1')
 
 # エンドポイント名
-endpoint_name = "canvas-new-deployment-11-25-2024-9-23-AM"
+endpoint_name = "canvas-new-deployment-08-05-2025-9-58-AM"
 
 # 予測ボタン
 if st.button("予測する"):
